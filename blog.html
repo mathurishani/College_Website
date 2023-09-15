@@ -1,0 +1,140 @@
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>university</title>
+        <link rel="stylesheet" href="mainpage-style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href=""><img src="imagesWD/text-logo-eduka-01-01.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times"  onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="mainpage.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="administration.html">ADMINISTRATION</a></li>
+                        <li><a href="admission.html">ADMISSIONS</a></li>
+                        <li><a href="course.html">ACADEMICS</a></li>
+                        <li><a href="blog.html">STUDENT ZONE</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Our Certificates & Online Programs</h1>
+        </section>
+
+         <!------ blog page content ------->
+        
+         <section class="blog-content">
+             <div class="row">
+                 <div class="blog-left">
+                     <img src="imagesWD/certificate.jpg">
+                     <h2>Our Certificates & Online Programs</h2>
+                     <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                     </p>
+                     <br>
+                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                     <br>
+                     <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                     </p>
+                     <br>
+                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+
+                     <div class="comment-box">
+                         <h3>Leave a comment</h3>
+
+                         <form class="comment-form">
+                             <input type="text" placeholder="Enter Name">
+                             <input type="email" placeholder="Enter Email">
+                             <textarea rows="5" placeholder="Your comment"></textarea> 
+                             <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                         </form>
+                     </div>
+                 </div>
+                 <div class="blog-right">
+                     <h3>Post Categories</h3>
+                     <div>
+                         <span>Business Analytics</span>
+                         <span>21</span>
+                     </div>
+                     <div>
+                        <span>Business Analytics</span>
+                        <span>21</span>
+                    </div>
+                    <div>
+                        <span>Business Analytics</span>
+                        <span>21</span>
+                    </div>
+                    <div>
+                        <span>Business Analytics</span>
+                        <span>21</span>
+                    </div>
+                    <div>
+                        <span>Business Analytics</span>
+                        <span>21</span>
+                    </div>
+                    <div>
+                        <span>Business Analytics</span>
+                        <span>21</span>
+                    </div>
+                    <div>
+                        <span>Business Analytics</span>
+                        <span>21</span>
+                    </div>
+                    <div>
+                        <span>Business Analytics</span>
+                        <span>21</span>
+                    </div>
+                 </div>
+             </div>
+         </section>
+
+        <!------ Footer ------->
+        
+        <section class="footer">
+            <h4>About Us</h4>
+            <p> 
+                The first universities were created in Europe by Catholic Church monks.
+                <br> The University of Bologna (Università di Bologna), founded in 1088, is the first university in the sense of.
+            </p>
+            <div class="icons">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </div>
+        </section>
+
+
+
+
+
+    <!----JavaScript  for Toggle Menu----->
+
+    <script>
+        
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+
+ 
+    </script>
+
+    </body>
+</html>

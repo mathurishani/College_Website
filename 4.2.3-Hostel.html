@@ -1,0 +1,147 @@
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Hostel</title>
+    <link rel="stylesheet" href="criteria.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-------Header---------->
+    
+    <section class="sub-header">
+        <nav>
+            <a href=""><img src="imagesWD/text-logo-eduka-01-01.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="1-Home.html">HOME</a></li>
+                    <li><a href="2-About.html">ABOUT</a></li>
+                    <li><a href="3-Administration.html">ADMINISTRATION</a></li>
+                    <li><a href="4-Admissions.html">ADMISSIONS</a></li>
+                    <li><a href="5-Academics.html">ACADEMICS</a></li>
+                    <li><a href="6-StudentZone.html">STUDENT ZONE</a></li>
+                    <li><a href="7-Contact.html">CONTACT</a></li>
+                 </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Hostel</h1>
+    </section>
+
+    <!-------Content--------->
+    <section class="hostel">
+        <p>Candidates desirous of applying for admission to the hostel must approach the Hostel Admission Desk in the
+            office immediately after securing admission in the college to fill/ generate an Online Hostel Application
+            Form. This should be deposited along with a self attested copy of the following documents:
+        </p>
+        <ul>
+            <li>The College Admission Fee Receipt </li>
+            <li>Class XII Marksheet </li>
+            <li>Residence Certificate issued by a competent local authority. The certificate could be from the District
+                Magistrate, the local employer of the parent or an Affidavit </li>
+        </ul>
+        <br>
+        <h2>Eligibility and Allocation of Seats</h2>
+        <ul>
+            <li>Admission to Hostel is strictly on basis of merit, using the same criteria as for admission to the
+                course. In case of a tie, percent aggregate marks are considered to decide merit.
+            </li>
+            <li>The number of seats in any Discipline Course depends on the sanctioned seats in that course.</li>
+            <li>Only outstation undergraduate students are eligible for admission to the Hostel. </li>
+            <li>Students whose parents reside in the National Capital Territory of Delhi, Faridabad, Gurgaon, Noida,
+                Greater Noida and Ghaziabad are not eligible.
+            </li>
+            <li>Admission is subject to submission of required proof of residency. </li>
+            <li>The decision of the Hostel Admission Committee shall be final in all matters. </li>
+        </ul>
+        <br>
+        <h2>Notification </h2>
+        <ul>
+            <li>The list of students selected for admission displayed on the website as well as on the College/Hostel
+                Notice Board. </li>
+            <li>No individual communication will be sent in this regard.</li>
+        </ul>
+        <br>
+        <h2>Payment of Fee</h2>
+        <ul>
+            <li>Students shortlisted for admission to the Hostel shall be required to pay online the first installment
+                of Hostel Fee. </li>
+            <li>Online Payment of fee is through State Bank of India at a link available on the college website. </li>
+            <li>Students will be required to pay the fee by the notified date else the hostel seat will be offered to
+                the waitlisted student.</li>
+        </ul>
+        <br>
+        <h2>Resident Scholar Form and Documents </h2>
+        <p>Admission will not be considered as complete till the selected student submits the following documents to the
+            Hostel Office: </p>
+        <ul>
+            <li>Resident Scholar Admission Form duly filled and counter signed by parents /li>
+            <li>Hostel Fee Receipt </li>
+            <li>Self attested photocopy of Aadhar Card</li>
+            <li>Undertaking for Compliance with Hostel Rules /li>
+            <li>Medical Certificate duly counter signed by a medical practitioner </li>
+            <li>Application for Membership of WUS Health Centre, University of Delhi </li>
+            <li>Anti-Ragging Undertaking Form </li>
+            <li>Anti-Ragging Undertaking Online Form </li>
+        </ul>
+        <br>
+        <h3>Note:</h3>
+        <p>All certificates are subject to verification by a competent authority. As per University of Delhi rules, the
+            college will accept self-attested copies of documents/ papers provided by the applicant. However, if any
+            false attestation/ falsified records are detected, the student will be debarred from attending any course in
+            the university or its college(s) for the next five years and in addition, a criminal case under relevant
+            section(s) of IPC (viz. 470, 471, 474 etc.) will be instituted against her.
+        </p>
+
+    </section>
+
+
+    <!------ Footer ------->
+
+    <section class="footer">
+        <h4>Eduka University</h4>
+        <p>New Delhi, India</p><br>
+        <p> <a href="4.2.1-UG.html" style="text-decoration: underline; color: blue;">Under Graduate</a> &nbsp; <a
+            href="4.2.2-PG.html" style="text-decoration: underline;  color: blue;">Post Graduate</a> &nbsp; <a
+            href="4.2.3-Hostel.html" style="text-decoration: underline;  color: blue;">Hostel</a>
+
+    </p>
+        <div class="icons">
+            Social Media Handles
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+        </div>
+    </section>
+
+
+
+
+    <!----JavaScript  for Toggle Menu----->
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+
+
+    </script>
+</body>
+
+</html>

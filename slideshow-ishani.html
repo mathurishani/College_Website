@@ -1,0 +1,109 @@
+<html>
+    <head>
+        <title>
+            slider
+        </title>
+        <link rel="stylesheet" href="slider_ishani_css.css">
+    </head>
+    <body>
+        <div class="hero">
+            <h1>slider</h1>
+
+            <div class="container">
+                <div class="indicator">
+                    <span class="btn active"></span>
+                    <span class="btn"></span>
+                    <span class="btn"></span>
+                    <span class="btn"></span>
+                </div>
+                <div class="slider">
+                    <div class="slide-row" id="slide">
+                        <div class="slide-col">
+                        <div class="user-text">
+                            <p>
+                                One of the major tourist spots in Bekal, the pristine Bekal Beach is the perfect place to relax and rejuvenate amidst tranquil settings. It is one of the finest white sand beaches in India and makes for a truly blissful spot. 
+                            </p>
+                            <h3>Sarah Zara</h3>
+                            <p>zara Inc.</p>
+                        </div>
+                        <div class="user-img">
+                            <img src="https://images.unsplash.com/photo-1495567720989-cebdbdd97913?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80" >
+                        </div>
+                        </div>
+                        <div class="slide-col">
+                        <div class="user-text">
+                            <p>
+                                One of the major tourist spots in Bekal, the pristine Bekal Beach is the perfect place to relax and rejuvenate amidst tranquil settings. It is one of the finest white sand beaches in India and makes for a truly blissful spot. 
+                            </p>
+                            <h3>Sarah Zara</h3>
+                            <p>zara Inc.</p>
+                        </div>
+                        <div class="user-img">
+                            <img src="https://images.unsplash.com/photo-1460627390041-532a28402358?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHN1bnNldHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" >
+                        </div>
+                        </div>
+                        <div class="slide-col">
+                        <div class="user-text">
+                            <p>
+                                One of the major tourist spots in Bekal, the pristine Bekal Beach is the perfect place to relax and rejuvenate amidst tranquil settings. It is one of the finest white sand beaches in India and makes for a truly blissful spot. 
+                            </p>
+                            <h3>Sarah Zara</h3>
+                            <p>zara Inc.</p>
+                        </div>
+                        <div class="user-img">
+                            <img src="https://images.unsplash.com/photo-1498575637358-821023f27355?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fHN1bnNldHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" >
+                        </div>
+                        </div>
+                        <div class="slide-col">
+                        <div class="user-text">
+                            <p>
+                                One of the major tourist spots in Bekal, the pristine Bekal Beach is the perfect place to relax and rejuvenate amidst tranquil settings. It is one of the finest white sand beaches in India and makes for a truly blissful spot. 
+                            </p>
+                            <h3>Sarah Zara</h3>
+                            <p>zara Inc.</p>
+                        </div>
+                        <div class="user-img">
+                            <img src="https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" >
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+        <script>
+
+            var btn = document.getElementsByClassName("btn");
+            var slide = document.getElementById("slide");
+
+            btn[0].onclick = function(){
+                slide.style.transform = "translateX(0px)"; 
+                for(i=0;i<4;i++){
+                    btn[i].classList.remove("active");
+                }
+                this.classList.add("active");
+            }
+            btn[1].onclick = function(){
+                slide.style.transform = "translateX(-800px)"; 
+                for(i=0;i<4;i++){
+                    btn[i].classList.remove("active");
+                }
+                this.classList.add("active");
+            }
+            btn[2].onclick = function(){
+                slide.style.transform = "translateX(-1600px)";
+                for(i=0;i<4;i++){
+                    btn[i].classList.remove("active");
+                }
+                this.classList.add("active"); 
+            }
+            btn[3].onclick = function(){
+                slide.style.transform = "translateX(-2400px)"; 
+                for(i=0;i<4;i++){
+                    btn[i].classList.remove("active");
+                }
+                this.classList.add("active");
+            }
+        </script>
+    </body>
+</html>

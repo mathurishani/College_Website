@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="criteria.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Debating Society</title>
+</head>
+<body>
+    <!-- header -->
+    <section class="sub-header">
+        <nav>
+            <a href=""><img src="imagesWD/text-logo-eduka-01-01.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times"  onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="1-Home.html">HOME</a></li>
+                    <li><a href="2-About.html">ABOUT</a></li>
+                    <li><a href="3-Administration.html">ADMINISTRATION</a></li>
+                    <li><a href="4-Admissions.html">ADMISSIONS</a></li>
+                    <li><a href="5-Academics.html">ACADEMICS</a></li>
+                    <li><a href="6-StudentZone.html">STUDENT ZONE</a></li>
+                    <li><a href="7-Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>The Debating Society</h1>
+    </section>
+
+    <!-- Debating-content -->
+    <section class="debate">
+        <p>The Debating Society provides a forum through which students can hone their oratory and analytical skills while learning to work as a team, optimize available resources and organize exciting events, often on a mega scale.
+        </p>
+        <p>The Society organizes several intra as well as inter-college debates. Members of the Debating Society routinely participate in several Model UN events as well as most national level debating competitions. Our students have also participated in the international debates.
+        </p>
+        <p>The Debating Society of the college provides a platform for creative and interpretative expression of ideas and to nurture the talent of public speaking. Students also get a hands on experience of organizing, adjudicating and coordinating various events. 
+        </p>
+    </section>
+
+
+
+<!-- footer -->
+<section class="footer">
+    <h4>Eduka University</h4>
+    <p>New Delhi, India</p><br>
+    <p > <a href="6.2.1-Dramatics.html" style="text-decoration: underline; color: blue;">Dramatics Society</a> &nbsp; <a
+        href="6.2.2-Dance.html" style="text-decoration: underline;  color: blue;">Dance Society</a> &nbsp; <a
+        href="6.2.3-Music.html" style="text-decoration: underline;  color: blue;">Music Society</a>
+    &nbsp;
+    <a href="6.2.4-FineArts.html" style="text-decoration: underline;  color: blue;">Fine Arts</a>
+    &nbsp; <a href="6.2.5-Debating.html" style="text-decoration: underline;  color: blue;">Debating Society</a>
+    
+    </p>
+    <div class="icons">
+        Social Media Handles
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
+    </div>
+</section>
+
+ <!----JavaScript  for Toggle Menu----->
+
+ <script>
+        
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+
+
+</script>
+
+
+</body>
+</html>

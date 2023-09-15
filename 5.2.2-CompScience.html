@@ -1,0 +1,123 @@
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Computer Science</title>
+    <link rel="stylesheet" href="departments.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-------Header---------->
+    
+    <section class="sub-header">
+        <nav>
+            <a href=""><img src="imagesWD/text-logo-eduka-01-01.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="1-Home.html">HOME</a></li>
+                    <li><a href="2-About.html">ABOUT</a></li>
+                    <li><a href="3-Administration.html">ADMINISTRATION</a></li>
+                    <li><a href="4-Admissions.html">ADMISSIONS</a></li>
+                    <li><a href="5-Academics.html">ACADEMICS</a></li>
+                    <li><a href="6-StudentZone.html">STUDENT ZONE</a></li>
+                    <li><a href="7-Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Computer Science Department</h1>
+    </section>
+
+    <!-------Content---------->
+
+    <body>
+        <section class="cs-dept">
+            <h2>About</h2>
+            <p>The College is one of the few select colleges in the University with
+                hi-tech infrastructure, an updated curriculum and excellent faculty to
+                offer 6-semester B.Sc.(H) Computer Science programme. Uniquely, this Course
+                is open to students from all academic backgrounds and does not require any
+                prerequisite knowledge in Computer Science. <br>
+                We have a dedicated computer science block, which has 3 computer labs and
+                one lecture room. All the labs have latest computer systems and printers
+                which are all connected through LAN. These systems are updated/ replaced from
+                time to time to keep up with the latest technology. Each of the labs and lecture
+                rooms has an overhead projector to enhance the teaching and learning process. <br>
+                The course covers all aspects, right from the fundamentals such as Programming,
+                Data Structures, Algorithms, Databases, Computer Networks to advanced courses such as
+                Microprocessors, Network Programming, Graphics, Advanced Algorithms and so on. This way
+                the course prepares anyone for higher education. There are many further options
+                available for the students after completing this course. They take up the placements
+                offered to them through campus placements. They enroll for M.Sc.(CS)/MCA, M.Sc.(OR),
+                M.Sc.(Informatics) courses after completing B.Sc.(H) Computer Science. In M.Sc.
+                Computer Sc. course of University of Delhi, about 50% of the seats are filled on
+                the basis of merit in B.Sc. (H) Computer Science Examination of University of Delhi.
+                Many of our students also enroll for MBA course after graduating from this course. <br>
+                Departmental faculty members have interests in varied research fields ranging from
+                Theoretical Computer Science, Artificial intelligence, Cloud Computing, Data
+                Mining, Pattern Recognition and Classification, Software Engineering etc. Research
+                at the undergraduate level is promoted by holding departmental research seminars
+                in each semester. Students are provided exposure to the current technology available
+                in the market through monthly seminars where speakers from the industry are invited. <br>
+            </p>
+            <h2>Faculty Profile</h2>
+            <ol>
+                <li>DR. ARPITA SHARMA, Associate Professor</li>
+                <li>DR. RAJNI BALA, Associate Professor</li>
+                <li>DR. ANUJA SONI, Associate Professor</li>
+                <li>DR. RAMPAL SINGH, Associate Professor</li>
+                <li>MS. SHWETA WADHERA, Associate Professor</li>
+                <li>DR. SUJATA KHATRI, Associate Professor</li>
+                <li>MR. ANIL KUMAR, Assistant Professor</li>
+            </ol>
+        </section>
+
+        <!-------Footer----------->
+
+        <section class="footer">
+            <h4>Eduka University</h4>
+            <p>New Delhi, India</p><br>
+            <p >  <a href="5.2.1-Commerce.html" style="text-decoration: underline; color: blue;">Commerce</a> &nbsp; <a
+                href="5.2.2-CompScience.html" style="text-decoration: underline;  color: blue;">Computer Science</a> &nbsp; 
+                <a href="5.2.3-English.html" style="text-decoration: underline; color: blue;">English</a> &nbsp; <a
+                    href="5.2.4-Economics.html" style="text-decoration: underline;  color: blue;">Economics</a> &nbsp; <a
+                    href="5.2.5-Maths.html" style="text-decoration: underline;  color: blue;">Maths</a>
+        
+            </p>
+            <div class="icons">
+                Social Media Handles
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </div>
+        </section>
+    </body>
+
+    <!----JavaScript  for Toggle Menu----->
+
+    <script>
+        
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+
+ 
+    </script>
+
+</body>
+</html>

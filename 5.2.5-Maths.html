@@ -1,0 +1,104 @@
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Maths</title>
+    <link rel="stylesheet" href="departments.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-------Header---------->
+    
+    <section class="sub-header">
+        <nav>
+            <a href=""><img src="imagesWD/text-logo-eduka-01-01.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times"  onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="1-Home.html">HOME</a></li>
+                    <li><a href="2-About.html">ABOUT</a></li>
+                    <li><a href="3-Administration.html">ADMINISTRATION</a></li>
+                    <li><a href="4-Admissions.html">ADMISSIONS</a></li>
+                    <li><a href="5-Academics.html">ACADEMICS</a></li>
+                    <li><a href="6-StudentZone.html">STUDENT ZONE</a></li>
+                    <li><a href="7-Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Maths Department</h1>
+    </section>
+
+<body>
+<section class="maths-dept">
+    <h2>About</h2>
+    <p>
+        "The Department also admits students in M.A. / M.Sc. Mathematics, M.A. / M.Sc. Statistics and M.A./ M.Sc. Operation Search. The Department has a very well equipped Computer Lab and well stocked Library" <br><br>
+The Department of Mathematics and Statistics offers undergraduate and post-graduate courses in Mathematics, Statistics and Operational Research. The fundamental philosophy of the Department is to inculcate not only intellect and creativity
+ among our students through their active engagement in academic and research activities but to realize them their extra-academic and extra-curricular disposition as well, critical for making a productive member of the society. Each faculty member 
+ closely monitors every student throughout the academic year in classes, tutorials, internals mid-term and final examinations. Our students are also encouraged to 
+take peer tuition in- and out- class vis-à-vis active participation of the faculty members. It is indeed an honor for the department that two of its faculty members Ms Neelima and Dr Ruchika Verma have been awarded ‘‘Distinguished Teachers Awards’’ of 
+University of Delhi by the former President of India Dr A P J Abdul Kalam on Teacher’s Day in 2009. The Department of Mathematics and Statistics boasts of state-of-the-art Lab and well-stocked Library. Since its inception it had played a dominant 
+and important role in the evolution of modern theories of Mathematics and Statistics. Our faculty members have organized several summer and in-service institutes to train teachers for the new concepts. The Department takes pride in being the 
+first institution of its kind to organize and host biennale International Seminar on History of Mathematical Sciences which have been seeing participations of 
+eminent scholars in the field from USA, UK, Canada, Israel, Iran, Italy, Germany, and Nepal besides many renowned Indian Mathematician and Statisticians. Some of the greatest Mathematicians and Statistician of our time who had visited the 
+Department are G S Pandey (President, ISHM), Ivor Grattan-Guiness (Middlesex University, UK), Norbert H Schlomiuk (University of Montreal, Canada), Vitali Milman (Tel Aviv University, Israel), Volker Peckhaus 
+(Universitat Erlangen-Nurnberg, Germany), E Von Collani (Universitat Wuezburg, Germany), etc. The Department proudly boasts of an enviable record of large number of student placements with renowned companies and 
+organization over the past many years in the world over. <br>
+</p>
+    <h2>Faculty Profile</h2>
+    <ol>
+        <li>Dr. (Ms) Neelam Lau, M.Sc., Ph.D. Associate Professor</li>
+        <li>Dr. Shishir Kr. Jha, M.Sc., M.Phil., Ph.D Associate Professor (T/C till 01-09-2019)</li>
+        <li>Dr. Babita Goyal, B.Sc., M.Sc., M.Phil.,Ph.D Associate Professor</li>
+        <li>Dr. (Ms) Ruchika Verma, M.Sc., M.Phil., Ph.D Associate Professor </li>
+        <li>Dr. Iffat Jahan, M.Sc., M.Phil., Ph.D Assistant Professor</li>
+        <li>Ms. Nidhi Dhingra, M.A, M.Phil Assistant Professor</li>
+        <li>Dr. Narinder Pushkarna, B.Sc., M.Sc., M.Phil., Ph.D Associate Professor</li>
+        <li>Ms. Raj Kumari Bahl, M.Sc., M.Phil. Assistant Professor</li>
+        <li>Dr. Anuradha Rajkonwar Chetiya M.phil, Ph.D Assistant Professor</li>
+        <li>Dr. Neelima Varshney, M.A., M. Phil.,M.Sc., Ph.D Assistant Professor</li>
+        <li>Dr. Praveen Kumar, M.Sc., Ph.D Assistant Professor</li>
+    </ol>
+</section>
+
+<section class="footer">
+    <h4>Eduka University</h4>
+    <p>New Delhi, India</p><br>
+    <p >  <a href="5.2.1-Commerce.html" style="text-decoration: underline; color: blue;">Commerce</a> &nbsp; <a
+        href="5.2.2-CompScience.html" style="text-decoration: underline;  color: blue;">Computer Science</a> &nbsp; 
+        <a href="5.2.3-English.html" style="text-decoration: underline; color: blue;">English</a> &nbsp; <a
+            href="5.2.4-Economics.html" style="text-decoration: underline;  color: blue;">Economics</a> &nbsp; <a
+            href="5.2.5-Maths.html" style="text-decoration: underline;  color: blue;">Maths</a>
+
+    </p>
+    <div class="icons">
+        Social Media Handles
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
+    </div>
+</section>
+    <!----JavaScript  for Toggle Menu----->
+
+    <script>
+        
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+
+ 
+    </script>
+
+</body>
+</html>

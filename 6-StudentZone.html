@@ -1,0 +1,116 @@
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Student Zone</title>
+        <link rel="stylesheet" href="studentzone.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <!-------Header---------->
+        
+        <section class="sub-header">
+            <nav>
+                <a href=""><img src="imagesWD/text-logo-eduka-01-01.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times"  onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="1-Home.html">HOME</a></li>
+                        <li><a href="2-About.html">ABOUT</a></li>
+                        <li><a href="3-Administration.html">ADMINISTRATION</a></li>
+                        <li><a href="4-Admissions.html">ADMISSIONS</a></li>
+                        <li><a href="5-Academics.html">ACADEMICS</a></li>
+                        <li><a href="6-StudentZone.html">STUDENT ZONE</a></li>
+                        <li><a href="7-Contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Student Zone</h1>
+        </section>
+
+        <!---------- student zone content ------------->
+       
+        <section class="student-zone-1">
+             <div class="row">
+                <div class="adm-col">
+                    <a href="6.1-StudentUnion.html"><h3>College <br> Student <br> Union</h3></a>
+                    
+                </div>
+                <div class="adm-col">
+                    <a href="6.2-Societies.html"><h3>Societies</h3>
+                    <h4>Debating Society</h4>
+                <h4>Dance Society</h4>
+                <h4>Music Society</h4>
+                <h4>Fine Arts Society</h4>
+                <h4>Dramatics Society</h4></a>
+                   
+                </div>
+            <div class="adm-col">
+                   
+                    <a href="6.3-CoCurricular.html"><h3>Co-Curricular Activities</h3>
+                    <h4>National Cadet Corps</h4>
+                    <h4>National Service Scheme</h4>
+                    <h4>Sports</h4></a>
+                    
+            </div>
+        </section>
+        <section class="student-zone-2">
+            <div class="row">
+                <div class="adm-col">
+                  
+                    <a href="6.4-Events.html"><h3>Events</h3>
+                    <h4>College Fest</h4>
+                    <h4>College Day</h4>
+                    <h4>Sports Meet</h4></a>
+                    
+            </div>
+               <div class="adm-col">
+                   <a href="6.5-Awards&Scholarships.html"><h3>Awards <br>& <br>Scholarships</h3></a>
+                   
+               </div>
+               <div class="adm-col">
+                   <a href="6.6-Alumni.html"><h3>College<br>Student<br>Alumni</h3></a>
+                  
+               </div>
+           
+       </section>
+
+        
+        <!------ Footer ------->
+        
+        <section class="footer">
+            <h4>Eduka University</h4>
+            <p>New Delhi, India</p><br>
+            <p > Nothing is IMPOSSIBLE, the word itself says, "I'm Possible"
+            </p>
+            <div class="icons">
+                Social Media Handles
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </div>
+        </section>
+ <!----JavaScript  for Toggle Menu----->
+
+ <script>
+        
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+
+
+</script>
+
+</body>
+</html>
