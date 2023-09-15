@@ -1,0 +1,139 @@
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="mainpage-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-------Header---------->
+    
+    <section class="sub-header">
+        <nav>
+            <a href=""><img src="imagesWD/text-logo-eduka-01-01.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="1-Home.html">HOME</a></li>
+          <li><a href="2-About.html">ABOUT</a></li>
+          <li><a href="3-Administration.html">ADMINISTRATION</a></li>
+          <li><a href="4-Admissions.html">ADMISSIONS</a></li>
+          <li><a href="5-Academics.html">ACADEMICS</a></li>
+          <li><a href="6-StudentZone.html">STUDENT ZONE</a></li>
+          <li><a href="7-Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+    <!---------- about us content ------------->
+
+    <section class="about-us">
+
+
+        <div class="row">
+            <div class="about-col">
+                <img src="imagesWD/vision-image.jpg">
+            </div>
+            <div class="about-col">
+                <h1>
+                    Vision
+                </h1>
+                <p>
+                    Eduka University is committed to the pursuit of excellence in higher education, character building,
+                    total development of personality and responsible citizenship. <br>
+                    To create a transformative educational experience for students focused on deep disciplinary
+                    knowledge; problem solving; leadership, communication, and interpersonal skills; and personal health
+                    and well-being.
+
+                    To cultivate a transformative university community committed to (a) attracting and retaining
+                    diverse, world-class talent; (b) creating a collaborative environment open to the free exchange of
+                    ideas, where research, creativity, innovation, and entrepreneurship can flourish; and (c) ensuring
+                    individuals can achieve their full potential.
+
+                    To impact society in a transformative way — regionally, nationally, and globally — by engaging with
+                    partners outside the traditional borders of the university campus.
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="about-col">
+                <h1>
+                    Infrastructure
+                </h1>
+                <p>
+                   
+                    In order to achieve its ambition of being a world-class education provider, Eduka University 
+                    is committed to significant enhancement of its facilities and buildings, essential for world-class
+                    research and all-round development of students. The University has an extremely modern and
+                    state-of-the-art infrastructure that goes a long way in facilitating a number of services for the
+                    students as well as the staff members spread over an area of 3,00,000 sq. feet. The campus boasts of
+                    finest interiors, infrastructures and a dedicated team provide excellent educational facilities that
+                    serve the areas and domains that have the potential to improve the quality of life for large
+                    sections of the society. The joyfulness of the duka University is reflected in its ambience- a
+                    befitting reflection of the contentment that resides within – the well-lit spaces and airy
+                    environment, the visuals on the walls, the creative installations, the work on the boards and the
+                    busy students.
+                </p>
+
+            </div>
+            <div class="about-col">
+                <img src="imagesWD/infrastructure-img.jpg">
+            </div>
+        </div>
+    </section>
+
+    <!------ Footer ------->
+
+    <section class="footer">
+        <h4>Eduka University</h4>
+        <p>New Delhi, India</p><br>
+        <p> There is no elevator to success. You have to take the stairs.
+        </p>
+        <div class="icons">
+            Social Media Handles
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+        </div>
+    </section>
+
+
+
+
+
+    <!----JavaScript  for Toggle Menu----->
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+
+
+    </script>
+
+</body>
+
+</html>
