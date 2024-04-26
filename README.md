@@ -12,6 +12,6 @@ The College Website is designed to provide information about the college, its ad
 
 
 ## Getting Started
-- Clone the repository: git clone https://github.com/your-username/college-website.git
+- Clone the repository: git clone [https://github.com/your-username/college-website.git](https://github.com/mathurishani/College_Website.git)
 - Open the project folder in your code editor.
 - Open the desired HTML file in your web browser to view the website locally.
